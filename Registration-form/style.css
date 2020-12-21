@@ -1,0 +1,43 @@
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #0690CF;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #0075B2;
+}
+header {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-size: 25px;
+}
+p {
+    margin: 0px;
+}
+main {
+    padding: 25px;
+}
+.fieldWrapper {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.field {
+    width: 130px;
+}
+
+#email {
+    width: 300px!important;
+}
+
+#password {
+
+}
+
+#againPassword {
+
+}
+
+#send {
+    background-color: #FFDF7F;
+}
