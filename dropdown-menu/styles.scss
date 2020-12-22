@@ -1,0 +1,81 @@
+.wrapper {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+}
+.item {
+    display: inline-block;
+    margin: 10px;
+    margin-right: 30px;
+    padding: 5px;
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+    /* inset <сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет> */
+    border-bottom: none;
+}
+.item:hover {
+    box-shadow: 0 -4px 10px  #444;
+    z-index: 1;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.item:hover #fileMenu {
+    visibility: hidden;
+    // display: block;
+}
+#test {
+    display: none;
+}
+.item:hover + #test {
+    visibility: visible;
+    display: block;
+}
+
+.hideMenu {
+    list-style-type: none;
+    padding: 0px;
+}
+#file, #edit {
+    background-color: white;
+    display: inline-block;
+}
+
+.file__item {
+    margin: 0px;
+    width: 100px;
+    padding-left: 5px;
+    color: blue
+}
+#file__items {
+    margin-top: 10px;
+    box-shadow: 0px 10px 10px  #444;
+    visibility: hidden;
+}
+#fileTitle:hover > #file__items{
+    visibility: visible;
+}
+.edit__item {
+    margin: 0px;
+    width: 100px;
+    padding-left: 5px;
+    color: blue
+}
+#edit__items {
+
+}
+.file__item:hover {
+    color: white;
+    background-color: #37ABFF;
+}
+.edit__item {
+    margin: 0px;
+    width: 100px;
+}
+#editMenu {
+
+}
+.wrapper__file {
+
+}
