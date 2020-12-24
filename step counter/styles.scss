@@ -1,0 +1,45 @@
+
+.step {
+    background: linear-gradient(#dbdbdb 10px, #bfbfbf 20px, #dbdbdb 30px);
+    width: 80px;
+    height: 5opx; 
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    // border-bottom-right-radius: 4em / 8em;
+    // border-top-right-radius: 4em / 8em;
+    border-radius: 0% 10% 10% 0% / 0% 80% 80% 0%;
+    // a b c d / e f g h
+}
+
+.step:hover {
+    background: linear-gradient(#a9df82 10px, #6bc727 20px, #a9df82 30px);
+    cursor: pointer;
+}
+
+.step1 {
+    
+}
+
+.step1::before {
+    display: block;
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+} 
+
+.step2 {
+
+}
+
+.step3 {
+
+}
+
+.step4 {
+
+}

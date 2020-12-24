@@ -1,0 +1,22 @@
+.wrapper {
+  width: 350px; }
+
+.header {
+  background-color: #008B66;
+  color: white;
+  padding: 10px;
+  text-align: center; }
+  .header__p {
+    margin: 0px; }
+
+.main {
+  background-color: #DFE6E1;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: -10px; }
+  .main__p {
+    margin: 0px;
+    font-size: 13px;
+    line-height: 15px; }
+
+/*# sourceMappingURL=styles.css.map */

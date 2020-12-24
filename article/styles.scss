@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    width: auto;
+    height: auto;
+    background: linear-gradient(to top, #DFDFDF, white);
+    padding: 0px;
+    width: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title {
+    color: orange;
+    width: 80px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+.title::after {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    left: 91px;
+    top: -2px;
+    transform: rotate(35deg);
+}
+
+.article {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 11px;
+}
+

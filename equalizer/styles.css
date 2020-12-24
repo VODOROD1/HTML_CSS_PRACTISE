@@ -1,0 +1,25 @@
+body {
+  background-color: #333333; }
+
+.wrapper {
+  height: 200px; }
+
+div:not(.wrapper):not(.first):not(.second):not(.third):not(.fourth):not(.fifth):not(.sixth) {
+  width: 30px;
+  height: 15px;
+  border-top: 2px solid #333333;
+  border-bottom: 1px solid #333333;
+  box-sizing: border-box; }
+
+.first, .second, .third, .fourth, .fifth, .sixth {
+  display: inline-block;
+  margin: 2px;
+  vertical-align: bottom;
+  background: linear-gradient(to top, darkorange, yellow);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+  .first div:first-child, .second div:first-child, .third div:first-child, .fourth div:first-child, .fifth div:first-child, .sixth div:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+
+/*# sourceMappingURL=styles.css.map */
